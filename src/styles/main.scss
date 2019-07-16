@@ -1,0 +1,40 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.main-container {
+  background: aliceblue;
+  border: 1px solid #EEEEEE;
+  box-shadow: 1px 1px 10px 5px #ECECEC;
+  padding: 10px;
+
+  .test-name {
+    text-align: center;
+    transition: all .5s ease-in;
+    &:hover {
+      color: magenta;
+      cursor: pointer;
+      transition: all .5s ease-in;
+    }
+     }
+  p {
+    display:flex;
+    justify-content: center; 
+     }
+  ul {
+    list-style: none;
+    text-align: center; 
+     }
+  li {
+    padding: 10px;
+    display: inline-block; 
+     }
+}
+
+
+
+
+
+
+
+
